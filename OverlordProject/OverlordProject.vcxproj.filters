@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Prefabs\SpherePrefab.cpp" />
+    <ClCompile Include="Prefabs\TorusPrefab.cpp" />
+    <ClCompile Include="Prefabs\CubePrefab.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial_Skinned.cpp" />
+    <ClCompile Include="Prefabs\Character.cpp" />
+    <ClCompile Include="Scenes\Exam\MagickaScene.cpp" />
+    <ClCompile Include="Prefabs\MagickaCharacter.cpp" />
+    <ClCompile Include="Materials\Shadow\DiffuseMaterial_Shadow.cpp" />
+    <ClCompile Include="Materials\Shadow\DiffuseMaterial_Shadow_Skinned.cpp" />
+    <ClCompile Include="Materials\Post\PostGrayscale.cpp" />
+    <ClCompile Include="Materials\Post\PostBlur.cpp" />
+    <ClCompile Include="Materials\BasicMaterial.cpp" />
+    <ClCompile Include="Materials\BasicMaterial_Deferred.cpp" />
+    <ClCompile Include="Prefabs\EnemyMeleeCharacter.cpp" />
+    <ClCompile Include="Prefabs\EnemyRangedCharacter.cpp" />
+    <ClCompile Include="Prefabs\Projectile.cpp" />
+    <ClCompile Include="Prefabs\BaseEnemy.cpp" />
+    <ClCompile Include="Scenes\Exam\Menu.cpp" />
+    <ClCompile Include="Prefabs\GameMenuPrefab.cpp" />
+    <ClCompile Include="Scenes\Exam\GameMenu.cpp" />
+    <ClCompile Include="Scenes\Exam\EndGameMenu.cpp" />
+    <ClCompile Include="Materials\SkyboxMaterial.cpp" />
+    <ClCompile Include="Materials\Post\PostVignette.cpp" />
+    <ClCompile Include="Prefabs\SpecialSpell.cpp" />
+    <ClCompile Include="Prefabs\Meteorite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Prefabs\SpherePrefab.h" />
+    <ClInclude Include="Prefabs\TorusPrefab.h" />
+    <ClInclude Include="Prefabs\CubePrefab.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\DiffuseMaterial_Skinned.h" />
+    <ClInclude Include="Prefabs\Character.h" />
+    <ClInclude Include="Scenes\Exam\MagickaScene.h" />
+    <ClInclude Include="Prefabs\MagickaCharacter.h" />
+    <ClInclude Include="Materials\Shadow\DiffuseMaterial_Shadow_Skinned.h" />
+    <ClInclude Include="Materials\Shadow\DiffuseMaterial_Shadow.h" />
+    <ClInclude Include="Materials\Post\PostGrayscale.h" />
+    <ClInclude Include="Materials\Post\PostBlur.h" />
+    <ClInclude Include="Materials\BasicMaterial.h" />
+    <ClInclude Include="Materials\BasicMaterial_Deferred.h" />
+    <ClInclude Include="Prefabs\EnemyMeleeCharacter.h" />
+    <ClInclude Include="Prefabs\EnemyRangedCharacter.h" />
+    <ClInclude Include="Prefabs\Projectile.h" />
+    <ClInclude Include="Prefabs\BaseEnemy.h" />
+    <ClInclude Include="Scenes\Exam\Menu.h" />
+    <ClInclude Include="Prefabs\GameMenuPrefab.h" />
+    <ClInclude Include="Scenes\Exam\GameMenu.h" />
+    <ClInclude Include="Scenes\Exam\EndGameMenu.h" />
+    <ClInclude Include="Materials\SkyboxMaterial.h" />
+    <ClInclude Include="Materials\Post\PostVignette.h" />
+    <ClInclude Include="Prefabs\SpecialSpell.h" />
+    <ClInclude Include="Prefabs\Meteorite.h" />
+  </ItemGroup>
+</Project>
